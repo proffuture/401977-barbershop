@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="8" height="8.062" viewBox="0 0 8 8.062">
+  <defs>
+    <style>
+      .cls-1 {
+        fill-rule: evenodd;
+      }
+    </style>
+  </defs>
+  <path id="radio-on.svg" class="cls-1" d="M460,482.976A4.021,4.021,0,1,1,456,487,4.009,4.009,0,0,1,460,482.976Z" transform="translate(-456 -482.969)"/>
+</svg>
