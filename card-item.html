@@ -18,7 +18,9 @@
           <li><a href="contacts.html">Контакты</a></li>
         </ul>
         <ul class="user-navigation">
-          <li class="login-link">Вход</li>
+          <li>
+            <a class="login-link" href="login.html">Вход</a>
+          </li>
         </ul>
       </nav>
     </header>
@@ -28,7 +30,7 @@
 
       <ul class="breadcrumbs">
         <li><a href="index.html">Главная</a></li>
-        <li><a href="#">Магазин</a></li>
+        <li><a href="catalog.html">Магазин</a></li>
         <li><a href="#">Средства для ухода</a></li>
         <li class="breadcrumbs-current">Набор для путешествий «Baxter of California»</li>
       </ul>
@@ -39,9 +41,9 @@
           <img src="img/Baxter-of-California.jpg" width="460" height="498" alt="Фото всего набора">
         </p>
         <ul class="product-photo-preview">
-          <li><img src="img/bfc-1.jpg" width="140" height="149" alt="Фото в анфас"></li>
-          <li><img src="img/bfc-2.jpg" width="140" height="149" alt="Фото в профиль"></li>
-          <li><img src="img/bfc-3.jpg" width="140" height="149" alt="Фото отдельной части"></li>
+          <li><a href="#"><img src="img/bfc-1.jpg" width="140" height="149" alt="Фото в анфас"></a></li>
+          <li><a href="#"><img src="img/bfc-2.jpg" width="140" height="149" alt="Фото в профиль"></a></li>
+          <li><a href="#"><img src="img/bfc-3.jpg" width="140" height="149" alt="Фото отдельной части"></a></li>
         </ul>
       </section>
 
@@ -87,7 +89,16 @@
     <section class="modal modal-login">
       <h2>Личный кабинет</h2>
       <p>Введите свой логин и пароль.</p>
-      <!-- Здесь будет форма -->
+      <form class="login-form" action="https://echo.htmlacademy.ru" method="post">
+        <label class="visually-hidden" for="user-login">Логин</label>
+        <input class="login-icon-user" type="text" name="login" id="user-login" value="" placeholder="Логин">
+        <label class="visually-hidden" for="user-password">Пароль</label>
+        <input class="password-icon-info" type="password" name="password" id="user-password" value="" placeholder="Пароль">
+        <label class="visually-hidden">
+          <input type="checkbox" name="remember">Запомнить меня
+        </label>
+        <a class="restore" href="#">Я забыл пароль!</a>
+      </form>
       <span class="modal-close">x</span>
     </section>
   </body>
